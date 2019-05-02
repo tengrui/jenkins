@@ -2,7 +2,9 @@ pipeline {
     agent none
     stages {
         stage('Example') {
-            echo 'Hello Jenkins'
+            steps {
+                echo 'Hello Jenkins'
+            }
         }
     }
 }
