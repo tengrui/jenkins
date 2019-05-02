@@ -4,5 +4,5 @@ pipeline {
         stage('Example') {
             echo 'Hello Jenkins'
         }
-    )
+    }
 }
